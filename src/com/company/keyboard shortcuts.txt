@@ -1,0 +1,33 @@
+1:54
+
+Surround                        c + a + T
+struktura pliku metody itd      c + F12
+szukanie tekstu w plikach       shift ctrl F
+zakończenie komendy             s + c + enter
+
+metoda pod kursorem gdzie wywołana   c + a + H
+okna - przełączanie             a + cyfra przy oknie
+     - powrót do edytora        esc
+
+getters, setters, constructor   a + insert
+
+ostatnia pozycja kursora		c + s + backspace
+dokumentacja 					c + Q
+unwrap od otaczanie				c + s + del
+
+acejump plugin - poruszanie się po kodzie - c + ;
+testy                           s + c + T
+
+
+
+
+
+
+
+
+
+
+
+
+PATH
+C:\ProgramData\Oracle\Java\javapath
