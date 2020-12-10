@@ -1,11 +1,15 @@
 package com.company;
 
+import java.time.*;
 import java.util.Arrays;
+
 
 public class Main {
 
     public static void main(String[] args) {
         int[] i;
+
+
         i = new int[]{1, 2, 3};
         char[] chars = {'a', 'b', 'c'};
         System.out.println(String.valueOf(chars));
@@ -22,22 +26,36 @@ public class Main {
         var b = 2;
         var c = "ttt";
         var k = a > b ? a : c;
+        System.out.println("---");
         System.out.println(a + b);
         System.out.println(k);
         System.out.println(k.getClass().getName());
         k = "aaa";
         System.out.println(k);
 
-        String hello = "hello";
-        System.out.println(hello);
 
+        System.out.println(fun1() + fun2("a"));
 
+        LocalTime godzina = LocalTime.now();
+        System.out.println(godzina);
     }
 
+    static String fun1() {
+        String s = "aaa ";
+        return fun2(s);
+    }
+
+
+    // TODO: 17.11.2020
+    static String fun2(String s1) {
+        return s1 += s1;
+    }
 
     private static void showOutput(int[] i, int[] a1) {
-        System.out.println(Arrays.toString(i));
-        System.out.println(Arrays.toString(a1));
-        System.out.println(i.hashCode());
+        System.out.println("1. " + Arrays.toString(i));
+        System.out.println("2. " + Arrays.toString(a1));
+        System.out.println("3. " + i.hashCode());
     }
+
+    // TODO: 17.11.2020 duuupcia
 }

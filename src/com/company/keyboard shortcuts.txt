@@ -18,10 +18,14 @@ unwrap od otaczanie				c + s + del
 acejump plugin - poruszanie się po kodzie - c + ;
 testy                           s + c + T
 
+przełączanie pomiędzy nawiasami ([{  c + s + M
+przełączanie pomiędzy nawiasami {}  c + [,  c + [
 
+Ostatnie pozycje kursora        c + s + E
+bookmarks wyświetl      s + F11, c + #0-9 - jeżeli ma sygnaturę
+          dodanie F11 lub c + F11
 
-
-
+Favourites  (bookmarks, breakpoints)    a + 2
 
 
 
