@@ -18,8 +18,8 @@ unwrap od otaczanie				c + s + del
 acejump plugin - poruszanie się po kodzie - c + ;
 testy                           s + c + T
 
-przełączanie pomiędzy nawiasami ([{  c + s + M
-przełączanie pomiędzy nawiasami {}  c + [,  c + [
+przełączanie pomiędzy nawiasami ([{     c + s + M
+przełączanie pomiędzy nawiasami {}      c + [,  c + [
 
 Ostatnie pozycje kursora        c + s + E
 bookmarks wyświetl      s + F11, c + #0-9 - jeżeli ma sygnaturę
@@ -27,9 +27,20 @@ bookmarks wyświetl      s + F11, c + #0-9 - jeżeli ma sygnaturę
 
 Favourites  (bookmarks, breakpoints)    a + 2
 
+pokazanie parametrów metody      c + P
 
+pokazanie definicji elementu     c + s + I
+utworzenie pliku scratch         c + a + s + Insert
 
+nawigacja w bieżącym pliku       c + F12
+otwarcie/zamknięcie lewego menu     c + s + F12
 
+szukanie (w plikach)                c + (s) + F
+szukanie i zamiana                  c + R
+szukanie i zamiana w plikach        c + s + R
+
+przejście do ostatnio użytego okna narzędzi  F12
+wielokrotny kursor                  s + a + lmb
 
 
 

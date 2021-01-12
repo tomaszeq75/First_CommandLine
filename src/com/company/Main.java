@@ -1,5 +1,6 @@
 package com.company;
 
+import java.io.FileOutputStream;
 import java.time.*;
 import java.util.Arrays;
 
@@ -7,8 +8,10 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        int[] i;
 
+
+
+        int[] i;
 
         i = new int[]{1, 2, 3};
         char[] chars = {'a', 'b', 'c'};
@@ -38,6 +41,9 @@ public class Main {
 
         LocalTime godzina = LocalTime.now();
         System.out.println(godzina);
+
+        SomeClass.staticMethod("");
+        RegexForEmail regexForEmail = new RegexForEmail();
     }
 
     static String fun1() {
@@ -58,4 +64,6 @@ public class Main {
     }
 
     // TODO: 17.11.2020 duuupcia
+
+
 }
